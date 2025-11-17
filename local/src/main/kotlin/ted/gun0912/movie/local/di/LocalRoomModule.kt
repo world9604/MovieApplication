@@ -29,5 +29,5 @@ internal object LocalRoomModule {
 
     @Provides
     @Singleton
-    fun provideHeyDealerDao(database: AppDatabase): MovieDao = database.movieDao()
+    fun provideMovieDao(database: AppDatabase): MovieDao = database.movieDao()
 }
